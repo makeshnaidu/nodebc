@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Me</title>
+    </head>
+    <body>
+        <h1>Contact Me!</h1>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="documents/resume.html">Resume</a></li>
+            <li><a href="#">Contact</a></li>           
+
+        </ul>
+        <p> please share your details for further information.</p>
+        <form action="http://www.example.com/contact.php" method="POST">
+            <p>Name:<input type="text" name="name"</p>
+            <p>Contact No.:<input type="number" name="number" </p>
+            <p>Email ID: <input type="email" name="email"</p><br>
+
+            <p>
+                <h3>Personal Details</h3>
+                First Name: <input type="text" name="First Name"><br>
+                Last Name: <input type="text" name="Last Name"><br>
+                Address: <input type="address" name="Address"><br>
+                Contact No. <input type="number" name="Number"><br>
+
+                <h3>Gender</h3>
+                <select>
+                    <option value="Male">Male</option>
+                    <option value="Female" selected>Female</option>
+                    <option value="Others">Others</option>
+                </select>
+
+                <h3>Feedback</h3>
+                <textarea rows="10" cols="50" name="text_area">Feedback</textarea><br>
+
+                <input type="button" onclick="alert('Thank you for your valuable feedback')"name="b_alert" value="Submit"><br>
+            </p>
+        </form>
+    </body>
+</html>
